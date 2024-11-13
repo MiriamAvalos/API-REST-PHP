@@ -34,8 +34,9 @@ https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/
   "curp": "CAMR280128HDFRRR03"
 }
 
+```
 
-3. Eliminar un usuario (DELETE)
+####  3. Eliminar un usuario (DELETE)
 Método: DELETE
 URL: https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/database.php/{id}
 Descripción: Elimina un usuario de la base de datos según su id.
@@ -44,7 +45,7 @@ URL: https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/database.php
 Método: DELETE
 
 
-Cómo probar la API en Postman
+####  Cómo probar la API en Postman
 Para probar esta API usando Postman:
 
 Abre Postman.
