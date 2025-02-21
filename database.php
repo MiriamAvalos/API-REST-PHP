@@ -2,7 +2,7 @@
 $servername = "sql304.infinityfree.com"; // El servidor MySQL de InfinityFree
 $username = "if0_38362619";  // Tu usuario de MySQL en InfinityFree
 $password = "RleOnYklGb";  // Contraseña de la base de datos de InfinityFree
-$dbname = "epiz_XXXXX_tubasededatos"; // Nombre de la base de datos que hayas creado en InfinityFree
+$dbname = "if0_38362619"; // Nombre de la base de datos que hayas creado en InfinityFree
 $port = 3306;  // Puerto común para MySQL
 
 $conn = new mysqli($servername, $username, $password, $dbname, $port);
