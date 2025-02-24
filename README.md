@@ -48,11 +48,11 @@ Método: DELETE
 ####  Cómo probar la API en Postman
 Para probar esta API usando Postman:
 
-Abre Postman.
-Crea una nueva solicitud (Request).
-Selecciona el método HTTP (GET, POST, DELETE).
-Especifica la URL de la API:
-Para obtener usuarios: GET https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php
-Para crear un nuevo usuario: POST https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php y agrega el JSON en el cuerpo de la solicitud.
-Para eliminar un usuario: DELETE https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php/{id}, donde {id} es el ID del usuario a eliminar.
+-Abre Postman.
+-Crea una nueva solicitud (Request).
+-Selecciona el método HTTP (GET, POST, DELETE).
+-Especifica la URL de la API:
+*Para obtener usuarios: GET https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php
+*Para crear un nuevo usuario: POST https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php y agrega el JSON en el cuerpo de la solicitud.
+*Para eliminar un usuario: DELETE https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php/{id}, donde {id} es el ID del usuario a eliminar.
 Haz clic en Send para enviar la solicitud y ver la respuesta.
