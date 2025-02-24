@@ -1,11 +1,16 @@
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+?>
+
+<?php
 $servername = "sql304.infinityfree.com"; // El servidor MySQL de InfinityFree
-$username = "if0_38362619";  // Tu usuario de MySQL en InfinityFree
+$username = "if0_38362619_if0_38362619";  // Tu usuario de MySQL en InfinityFree 
 $password = "RleOnYklGb";  // Contraseña de la base de datos de InfinityFree
 $dbname = "if0_38362619"; // Nombre de la base de datos que hayas creado en InfinityFree
-$port = 3306;  // Puerto común para MySQL
 
-$conn = new mysqli($servername, $username, $password, $dbname, $port);
+
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
