@@ -6,9 +6,9 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 <?php
 $servername = "btvax3f1faoz6dli8zrx-mysql.services.clever-cloud.com";
-$username = "uwn4oeduomhguidh"; 
-$password = "9fZhJdADyQ3edlVjPTaJ";  
-$dbname = "btvax3f1faoz6dli8zrx";  
+$username = "uwuljcjfcviw77al"; 
+$password = "J227B0abkQsgcN2wSkEY";  
+$dbname = "bdqv7fxt1yydvtygc5qx";  
 $port = 3306;  
 
 
