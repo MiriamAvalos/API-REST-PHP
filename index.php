@@ -1,19 +1,23 @@
 <?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
+mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+
 ?>
 
+
 <?php
-$servername = "sql304.infinityfree.com"; // El servidor MySQL de InfinityFree
-$username = "if0_38362619_if0_38362619";  // Tu usuario de MySQL en InfinityFree 
-$password = "RleOnYklGb";  // Contraseña de la base de datos de InfinityFree
-$dbname = "if0_38362619"; // Nombre de la base de datos que hayas creado en InfinityFree
+$servername = "btvax3f1faoz6dli8zrx-mysql.services.clever-cloud.com";
+$username = "uwn4oeduomhguidh"; 
+$password = "9fZhJdADyQ3edlVjPTaJ";  
+$dbname = "btvax3f1faoz6dli8zrx";  
+$port = 3306;  
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
+} else {
+    echo json_encode(["message" => "Conexión exitosa"]);
 }
 
 $conn->set_charset("utf8");
