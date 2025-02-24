@@ -15,14 +15,14 @@ https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/
 
 ### 1. Obtener todos los usuarios (GET)
 - **Método:** `GET`
-- **URL:** `https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/database.php`
+- **URL:** `https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php`
 - **Descripción:** Obtiene la lista completa de usuarios en la base de datos.
 
 ---
 
 ### 2. Crear un nuevo usuario (POST)
 - **Método:** `POST`
-- **URL:** `https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/database.php`
+- **URL:** `https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php`
 - **Descripción:** Inserta un nuevo usuario en la base de datos.
 
 #### Ejemplo de solicitud (Body en Postman):
@@ -38,10 +38,10 @@ https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/
 
 ####  3. Eliminar un usuario (DELETE)
 Método: DELETE
-URL: https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/database.php/{id}
+URL: https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php/{id}
 Descripción: Elimina un usuario de la base de datos según su id.
 Ejemplo de solicitud:
-URL: https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/database.php/3
+URL: https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php/3
 Método: DELETE
 
 
@@ -52,7 +52,7 @@ Abre Postman.
 Crea una nueva solicitud (Request).
 Selecciona el método HTTP (GET, POST, DELETE).
 Especifica la URL de la API:
-Para obtener usuarios: GET https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/database.php
-Para crear un nuevo usuario: POST https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/database.php y agrega el JSON en el cuerpo de la solicitud.
-Para eliminar un usuario: DELETE https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/database.php/{id}, donde {id} es el ID del usuario a eliminar.
+Para obtener usuarios: GET https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php
+Para crear un nuevo usuario: POST https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php y agrega el JSON en el cuerpo de la solicitud.
+Para eliminar un usuario: DELETE https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php/{id}, donde {id} es el ID del usuario a eliminar.
 Haz clic en Send para enviar la solicitud y ver la respuesta.
