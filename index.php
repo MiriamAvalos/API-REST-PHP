@@ -5,10 +5,11 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 
 <?php
-$servername = "btvax3f1faoz6dli8zrx-mysql.services.clever-cloud.com";
-$username = "uwn4oeduomhguidh"; 
-$password = "9fZhJdADyQ3edlVjPTaJ";  
-$dbname = "btvax3f1faoz6dli8zrx";  
+// Parámetros de conexión 
+$servername = "sql107.infinityfree.com";
+$username = "if0_38397056"; 
+$password = "Tv0iZMVUyhsoa";  
+$dbname = "if0_38397056_crud_usuarios";  
 $port = 3306;  
 
 
