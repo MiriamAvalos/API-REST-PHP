@@ -16,12 +16,12 @@ ini_set('display_errors', 1);
 
 <?php
 
-// Cargar las variables de entorno
-$servername = getenv('DB_SERVER');
-$username = getenv('DB_USER');
-$password = getenv('DB_PASSWORD');
-$dbname = getenv('DB_NAME');
-$port = 3306;
+// Parámetros de conexión 
+$servername = "sql107.infinityfree.com";
+$username = "if0_38397056"; 
+$password = "Tv0iZMVUyhsoa";  
+$dbname = "if0_38397056_crud_usuarios";  
+$port = 3306;  
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
