@@ -1,17 +1,29 @@
 <?php
-mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
+
+// Encabezados CORS para permitir solicitudes desde Postman y cualquier origen
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, POST, DELETE, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
+header("Content-Type: application/json; charset=UTF-8");
+
+// Activa la visualización de errores para depuración
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 
 ?>
 
 
 <?php
 // Parámetros de conexión 
-$servername = "sql107.infinityfree.com";
-$username = "if0_38397056"; 
-$password = "Tv0iZMVUyhsoa";  
-$dbname = "if0_38397056_crud_usuarios";  
-$port = 3306;  
-
+$servername = "btvax3f1faoz6dli8zrx-mysql.services.clever-cloud.com";
+$username = "uwuljcjfcviw77al"; 
+$password = "J227B0abkQsgcN2wSkEY";  
+$dbname = "bdqv7fxt1yydvtygc5qx";  
+$username = "uwn4oeduomhguidh"; 
+$password = "9fZhJdADyQ3edlVjPTaJ";  
+$dbname = "btvax3f1faoz6dli8zrx";  
+$port = 3306; 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
