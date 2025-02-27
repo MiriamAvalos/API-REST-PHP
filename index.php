@@ -15,15 +15,14 @@ ini_set('display_errors', 1);
 
 
 <?php
+
 // Parámetros de conexión 
-$servername = "btvax3f1faoz6dli8zrx-mysql.services.clever-cloud.com";
-$username = "uwuljcjfcviw77al"; 
-$password = "J227B0abkQsgcN2wSkEY";  
-$dbname = "bdqv7fxt1yydvtygc5qx";  
-$username = "uwn4oeduomhguidh"; 
-$password = "9fZhJdADyQ3edlVjPTaJ";  
-$dbname = "btvax3f1faoz6dli8zrx";  
-$port = 3306; 
+$servername = "sql107.infinityfree.com";
+$username = "if0_38397056"; 
+$password = "Tv0iZMVUyhsoa";  
+$dbname = "if0_38397056_crud_usuarios";  
+$port = 3306;  
+
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
