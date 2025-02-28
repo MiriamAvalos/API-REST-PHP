@@ -16,16 +16,24 @@ ini_set('display_errors', 1);
 
 <?php
 
-// Obtener las variables de entorno definidas en Vercel
+header("Content-Type: application/json; charset=UTF-8");
+
+// Obtener las variables de entorno
 $servername = getenv('DB_SERVER');
 $username = getenv('DB_USERNAME');
 $password = getenv('DB_PASSWORD');
 $dbname = getenv('DB_NAME');
 $port = 3306;
 
+// Muestra los valores de las variables de entorno (sin la contraseña por seguridad)
+echo json_encode([
+    "DB_SERVER" => $servername,
+    "DB_USERNAME" => $username,
+    "DB_NAME" => $dbname
+]);
 
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+/*$conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
@@ -126,5 +134,5 @@ function borrar($conexion, $id) {
     }
 }
 
-$conn->close();
+$conn->close();  */
 ?>
