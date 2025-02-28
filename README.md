@@ -4,7 +4,7 @@ Este proyecto proporciona una API RESTful para gestionar usuarios en una base de
 
 ## URL base
 
-La API está disponible en el siguiente dominio de infinityFree:
+La API está disponible en el siguiente dominio de cleverCloud:
 
 http://user-registration-api.rf.gd
 
@@ -15,14 +15,14 @@ http://user-registration-api.rf.gd
 
 ### 1. Obtener todos los usuarios (GET)
 - **Método:** `GET`
-- **URL:** `http://user-registration-api.rf.gd/index.php`
+- **URL:** `https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php`
 - **Descripción:** Obtiene la lista completa de usuarios en la base de datos.
 
 ---
 
 ### 2. Crear un nuevo usuario (POST)
 - **Método:** `POST`
-- **URL:** `http://user-registration-api.rf.gd/index.php`
+- **URL:** `https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php`
 - **Descripción:** Inserta un nuevo usuario en la base de datos.
 
 #### Ejemplo de solicitud (Body en Postman):
@@ -30,7 +30,7 @@ http://user-registration-api.rf.gd
 {
   "first_name": "Alicia",
   "last_name": "Ramirez",
-  "age": 28,
+  "age": 68,
   "curp": "CAMR280128HDFRRR03"
 }
 
@@ -38,10 +38,10 @@ http://user-registration-api.rf.gd
 
 ####  3. Eliminar un usuario (DELETE)
 Método: DELETE
-URL: http://user-registration-api.rf.gd/index.php/{id}
+URL: https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php/{id}
 Descripción: Elimina un usuario de la base de datos según su id.
 Ejemplo de solicitud:
-URL: http://user-registration-api.rf.gd/index.php/3
+URL: https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php/3
 Método: DELETE
 
 
@@ -52,7 +52,7 @@ Para probar esta API usando Postman:
 -Crea una nueva solicitud (Request).
 -Selecciona el método HTTP (GET, POST, DELETE).
 -Especifica la URL de la API:
-*Para obtener usuarios: GET http://user-registration-api.rf.gd/index.php/index.php
-*Para crear un nuevo usuario: POST http://user-registration-api.rf.gd/index.php/index.php y agrega el JSON en el cuerpo de la solicitud.
-*Para eliminar un usuario: DELETE http://user-registration-api.rf.gd/index.php/{id}, donde {id} es el ID del usuario a eliminar.
+*Para obtener usuarios: GET https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php
+*Para crear un nuevo usuario: POST https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php y agrega el JSON en el cuerpo de la solicitud.
+*Para eliminar un usuario: DELETE https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php/{id}, donde {id} es el ID del usuario a eliminar.
 Haz clic en Send para enviar la solicitud y ver la respuesta.
