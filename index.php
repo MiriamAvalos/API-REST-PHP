@@ -125,5 +125,5 @@ function borrar($conexion, $id) {
     }
 }
 
-$conn->close();  */
+$conn->close();  
 ?>
