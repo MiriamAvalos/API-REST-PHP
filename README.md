@@ -6,8 +6,7 @@ Este proyecto proporciona una API RESTful para gestionar usuarios en una base de
 
 La API está disponible en el siguiente dominio de cleverCloud:
 
-http://user-registration-api.rf.gd
-
+https://app-ed8cc97a-7bfd-4bca-99cf-ca1b766fa79d.cleverapps.io/index.php
 
 ---
 
