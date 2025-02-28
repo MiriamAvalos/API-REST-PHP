@@ -16,16 +16,15 @@ ini_set('display_errors', 1);
 
 <?php
 
-// Parámetros de conexión 
-$servername = "sql107.infinityfree.com";
-$username = "if0_38397056"; 
-$password = "Tv0iZMVUyhsoa";  
-$dbname = "if0_38397056_crud_usuarios";  
-$port = 3306; 
+// Parámetros de conexión a Clever Cloud
+$servername = "btvax3f1faoz6dli8zrx-mysql.services.clever-cloud.com";
+$username = "uwn4oeduomhguidh"; 
+$password = "9fZhJdADyQ3edlVjPTaJ";  
+$dbname = "btvax3f1faoz6dli8zrx";  
+$port = 3306;  
 
 
-
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname, $port);
 
 if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
