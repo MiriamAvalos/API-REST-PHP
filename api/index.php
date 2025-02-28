@@ -16,12 +16,13 @@ ini_set('display_errors', 1);
 
 <?php
 
-// Parámetros de conexión 
-$servername = "sql107.infinityfree.com";
-$username = "if0_38397056"; 
-$password = "Tv0iZMVUyhsoa";  
-$dbname = "if0_38397056_crud_usuarios";  
-$port = 3306;  
+// Obtener las variables de entorno definidas en Vercel
+$servername = getenv('DB_SERVER');
+$username = getenv('DB_USERNAME');
+$password = getenv('DB_PASSWORD');
+$dbname = getenv('DB_NAME');
+$port = 3306;
+
 
 
 $conn = new mysqli($servername, $username, $password, $dbname);
