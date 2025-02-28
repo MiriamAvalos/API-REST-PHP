@@ -16,24 +16,16 @@ ini_set('display_errors', 1);
 
 <?php
 
-header("Content-Type: application/json; charset=UTF-8");
-
-// Obtener las variables de entorno
-$servername = getenv('DB_SERVER');
-$username = getenv('DB_USERNAME');
-$password = getenv('DB_PASSWORD');
-$dbname = getenv('DB_NAME');
-$port = 3306;
-
-// Muestra los valores de las variables de entorno (sin la contraseña por seguridad)
-echo json_encode([
-    "DB_SERVER" => $servername,
-    "DB_USERNAME" => $username,
-    "DB_NAME" => $dbname
-]);
+// Parámetros de conexión 
+$servername = "sql107.infinityfree.com";
+$username = "if0_38397056"; 
+$password = "Tv0iZMVUyhsoa";  
+$dbname = "if0_38397056_crud_usuarios";  
+$port = 3306; 
 
 
-/*$conn = new mysqli($servername, $username, $password, $dbname);
+
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
