@@ -16,7 +16,7 @@ ini_set('display_errors', 1);
 
 <?php
 
-// Parámetros de conexión a Clever Cloud
+// Parametros de conexión a Clever Cloud
 $servername = "btvax3f1faoz6dli8zrx-mysql.services.clever-cloud.com";
 $username = "uwn4oeduomhguidh"; 
 $password = "9fZhJdADyQ3edlVjPTaJ";  
